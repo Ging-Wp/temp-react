@@ -5,10 +5,5 @@
   "installCommand": "npm ci",
   "devCommand": "npm run dev",
   "cleanUrls": true,
-  "trailingSlash": false,
-  "functions": {
-    "app/api/**/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  "trailingSlash": false
 }
